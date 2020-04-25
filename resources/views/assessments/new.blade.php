@@ -13,11 +13,11 @@
     </section>
 
     <section class="content-area pt-sm-3">
-        <div class="container py-5 align-items-center">
-            <div class="m-auto w-50 wu text-justify">
+        <div class="container py-3 align-items-center">
+            <div class="m-auto w-50 wu text-left">
                 <form action="{{ route('assessments.store') }}" method="post">
                     @csrf
-                    <div id="step">
+                    <div id="step" class="q1">
                         <p class="q font-weight-bold">
                             Have you or anyone you've been in close contact with travelled overseas in the last 14 days?
                         </p>
@@ -31,7 +31,7 @@
                         <button type="button" class="btn answer btn-covid-white" value="no" name="button">No</button>
                     </div>
 
-                    <div id="step">
+                    <div id="step" class="q2">
                         <p class="q font-weight-bold">
                             Have you or anyone you have come in contact with been in the vicinity of a suspected Coronavirus case in the past 14 days?
                         </p>
@@ -40,7 +40,7 @@
                         <button type="button" class="btn answer btn-covid-white" value="no" name="button">No</button>
                     </div>
 
-                    <div id="step">
+                    <div id="step" class="q3">
                         <p class="q font-weight-bold">
                             Have you come into close contact (within 6 feet) with someone who has a laboratory confirmed Coronavirus diagnosis in the past 14 days?
                         </p>
@@ -49,7 +49,7 @@
                         <button type="button" class="btn answer btn-covid-white" value="no" name="button">No</button>
                     </div>
 
-                    <div id="step">
+                    <div id="step" class="q4">
                         <p class="q font-weight-bold">
                             Are you currently experiencing any of the following symptoms:
                         </p>
@@ -64,9 +64,9 @@
                         <button type="button" class="btn answer btn-covid-white" value="no" name="button">No</button>
                     </div>
 
-                    <div class="low-risk" id="step">
+                    <div id="step">
                         <h3 class="text-success font-weight-bolder">
-                            No Worries!
+                            LOW RISK!
                         </h3>
                         <p class="p">
                             Based on your responses, current recommendations are to practice social distancing and watch for symptoms and probably retake this assessment in four days.
@@ -76,7 +76,7 @@
 
                     <div class="high-risk" id="step">
                         <h3 class="text-danger font-weight-bolder">
-                            High Risk!
+                            HIGH RISK!
                         </h3>
                         <p class="p">
                             Based on your responses, you may need COVID-19 testing.

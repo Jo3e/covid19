@@ -11,7 +11,6 @@ body{
     background-color: #FFFFFF;
     color: #2A2A2A;
     height: auto;
-    /* max-height: 550px; */
 }
 
 .content-area #step:not(:first-of-type){
@@ -70,7 +69,7 @@ body{
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .content-area .p{
-        font-size: 18px;
+        font-size: 16px;
     }
     .content-area .q{
         font-size: 18px;

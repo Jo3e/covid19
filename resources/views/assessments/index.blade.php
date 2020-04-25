@@ -13,7 +13,7 @@
     </section>
 
     <section class="content-area pt-sm-3">
-        <div class="container py-5">
+        <div class="container py-3">
             <div class="m-auto w-50 wu text-sm-justify text-md-center text-lg-center">
                 <h4>
                     <b>
