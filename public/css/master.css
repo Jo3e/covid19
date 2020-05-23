@@ -61,7 +61,7 @@ body{
 
 .footer-area{
     background-color: #2B4B5A;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -80,4 +80,16 @@ body{
     .wu{
         width: 80% !important;
     }
+}
+
+
+/*dashboard*/
+.bg-default{
+    background-color: #2B4B5A;
+    opacity: 1;
+    color: #FFFFFF !important;
+}
+
+.text-default{
+    color: #2B4B5A;
 }

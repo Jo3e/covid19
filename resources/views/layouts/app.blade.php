@@ -30,6 +30,7 @@
                 crossorigin="anonymous"></script>
         {{-- Custom js --}}
         <script type="text/javascript" src="{{ asset('js/assessments.js') }}" defer></script>
+        {{-- <script type="text/javascript" src="{{ asset('js/requests.js') }}" defer></script> --}}
         <!-- Scripts End -->
     </body>
 </html>

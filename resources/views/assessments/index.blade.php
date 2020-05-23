@@ -22,13 +22,13 @@
                 </h4>
 
                 <p class="p">
-                    The purpose of this online assessment is to identify whether you may be at risk for coronavirus (COVID-19) and provide options for next steps.
+                    This is a COVID-19 assessment and test request tool which determines your risk factor to COVID-19 and measures to take in staying safe.
                 </p>
                 <p class="p">
-                    The assessment <b>will take about 2 minutes to complete. Your responses will be anonymous and remain strictly confidential.</b>
-                </p>
+                  This assessment will take about <b>2 minutes and all responses are anonymous and strictly confidential.</b>
                 <p class="p">
-                    This assessment is being conducted by the Ministry of Health, Enugu State. If you have any questions about the assessment, please contact <a href="mailto:support@enugustate.gov.ng">support@enugustate.gov.ng</a>
+                  This application should not be used for diagnostic purposes. <br>
+                    If you have any question about the assessment, please contact <a href="mailto:support@enugustate.gov.ng">support@enugustate.gov.ng</a>
                 </p>
                 <a href="{{ route('assessments.create') }}" class="btn btn-covid text-center" role="button">NEXT</a>
             </div>
